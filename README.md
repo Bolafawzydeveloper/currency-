@@ -1,8 +1,5 @@
-# WolfBot
+
 This is the source of the Crypto currency trading bot running on: https://wolfbot.org
-
-It is written in TypeScript for NodeJS + MongoDB.
-
 ## Features
 * **Trading**: buying + selling, portfolio management (sync balances with exchanges)
 * **Margin Trading**: leveraged trading including short selling and futures trading
@@ -44,21 +41,9 @@ The full strategy documentation: https://wolfbot.org/strategy-docs/
 NodeJS >= 12 && <= 14
 MongoDB >= 4.0
 TypeScript >= 3.5
-yarn >= 1.9.4 (npm should work too, but no support given if you run into errors)
-Webpack >= 4 (only for UI modifications)
-```
-
-
+yarn >= 1.9.4 (npm should work too, but no support given if you run int
 ### Installation
-```
-git clone https://github.com/Ekliptor/WolfBot
-yarn install
-```
-You can use the `--production` flag if you only want to run the bot and not make any code changes.
-
-
 ### Start trading
-Rename the `configLocal-sample.ts` file in the project root directory to `configLocal.ts` and add at least `mongoUrl` (plus some exchange API keys if you want to trade).
 
 
 After running TypeScript (automatically in your IDE or run the `tsc` command in the project root dir) you will see a file:
@@ -113,11 +98,4 @@ If you want to connect WolfBot to your trading terminal, please take a look at t
 This let's you:
 * create new cloud bot instances and earn commission for every referral (not applicable to open source version)
 * import the trades book with all trades WolfBot made via REST API call
-* subscribe to live trades via WebSocket to display them in your trading terminal
-* subscribe to live strategy data and indicator values via WebSocket
-
-
-## Contact
-Follow me on [Twitter](https://twitter.com/ekliptor) and [Memo](https://memo.cash/profile/1JFKA1CabVyX98qPRAUQBL9NhoTnXZr5Zm).
-
-No donations, I actually make money trading;)
+* subscribe to live trades via WebSocket 
