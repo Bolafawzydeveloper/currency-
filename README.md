@@ -5,8 +5,7 @@ This is the source of the Crypto currency trading bot running on: https://wolfbo
 * **Margin Trading**: leveraged trading including short selling and futures trading
 * **Arbitrage**: profit from price differences between 2 exchanges (done "on the books" with balances on both exchanges, no withdrawals from exchanges required)
 * **Lending**: lend your coins on the lending market of supported crypto exchanges for the highest possible interest rates
-* **Backtesting**: test your trade strategies in simulation on historical data
-* **Web Plugins**: [Access social media data](https://wolfbot.org/social-sentiment/) from Twitter, Reddit, Telegram Channels, RSS Feeds,... to trade based on news and real world events (not part of open source version yet)
+* **Backtesting**: test your trade strategies in simulation on historical dat
 
 
 ### Key trading advantages
